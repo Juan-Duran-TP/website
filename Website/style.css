@@ -21,3 +21,8 @@
   flex-grow: 999;
   min-width: 50%;
 }
+
+div.container {
+  text-align: center;
+  padding: 10px 20px;
+}

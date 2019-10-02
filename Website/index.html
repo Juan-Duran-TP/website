@@ -6,16 +6,50 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Juan's About Me</title>
     <style type="text/css">
-    body  {
-      margin:40px auto;
-      max-width:650px;
-      line-height:1.6;
-      font-size:18px;
-      color:#444;
-      padding:0
-      10px}
-    h1,h2,h3
-    {line-height:1.2}
+      body  {
+        margin:40px auto;
+        max-width:650px;
+        line-height:1.6;
+        font-size:18px;
+        color:#444;
+        padding:0
+        10px}
+      h1,h2,h3
+      {line-height:1.2}
+      img {
+        /*border: 1px solid rgb(221, 221, 221);
+        border-radius: 4px;
+        padding: 5px; */
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 100%;
+
+      }
+      div.container {
+        text-align: center;
+        padding: 1px 0px;
+        }
+      div.polaroidR {
+        float: right;
+        margin: 0 0 1em 1em;
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 50%;
+        background-color: white;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        margin-bottom: 20px;
+      }
+      div.left {
+        float: left;
+      }
+      div.right {
+        float: right;
+      }
+      section {
+        float: left;
+      }
+
     </style>
   </head>
 
@@ -28,7 +62,6 @@
       </header>
     </div>
 
-    <div id = "text"
       <h2>
         Skills & Experience
       </h2>
@@ -67,22 +100,44 @@
         academics was heavily pushed by my family and drove me to graduate third in my class from Chester W. Nimitz High
         School and have enough scholarships to afford college.
       </p>
-      <h3>
-        College Part I
-      </h3>
-      <p>
-        I entered Texas A&M's College of Engineering as an aspiring nuclear engineering student. I quickly got involved
-        with peer teaching, supplemental instruction, and personal tutoring for the freshmen engineering program 
-        to both pay for college and give me a way to assist others in overcoming struggles I experienced in 
-        previous courses. I also involved myself with A&M's Nuclear Power Institute and had the opportunity to work
-        on a research project with NASA in hardware and software role. It was through these experience that I discovered 
-        my fascination with programing, design, and electronics, topics I had at this point been teaching students but
-        not using in my major. I ultimately decided to switch into computer engineering starting my senior year and 
-        began my next stage of life.
-      </p>
+
+      
+      <section>
         <h3>
-          College Part II
+            College Part I
         </h3>
+        
+        <div class = "left">
+          <p>
+            I entered Texas A&M's College of Engineering as an aspiring nuclear engineering student. I quickly got involved
+            with peer teaching, supplemental instruction, and personal tutoring for the freshmen engineering program 
+            to both pay for college and give me a way to assist others in overcoming struggles I experienced in 
+            previous courses. I also involved myself with A&M's Nuclear Power Institute and had the opportunity to work
+            on a research project with NASA in hardware and software role. It was through these experience that I discovered 
+            my fascination with programing, design, and electronics, topics I had at this point been teaching students but
+            not using in my major. I ultimately decided to switch into computer engineering starting my senior year and 
+            began my next stage of life.
+          </p>
+        </div>
+
+        <div class="polaroidR">
+          <img src="DoVR.jpg"
+            alt="Myself working at Ellington Airfield to prepare
+              the package before the first flight. 2015">
+          <div class = "container">
+            <p>
+              Pre-flight testing before first simulated zero-G flight at Ellington Airfield
+            </p>
+          </div>
+        </div>
+      </section>
+
+
+
+
+      <h3>
+          College Part II
+      </h3>
       <p>
           It was in these next three years that I would involve myself with the Society of Women Engineers; it was through
           my many students I previously had taught inviting me to numerous events with a plethora of food. I made many lasting
@@ -90,12 +145,39 @@
           college to minor in Cybersecurity and Mathematics. Finally, after a total of five and a half years, I completed my college
           adventure and could not be happier.
       </p>
+
+
+
+      <div class="polaroid">
+        <img src="SWE.jpg"
+        alt="Logo of Texas A&M's Society of Women Engineers">
+        
+      </div>
+
+
       <h3>
         Personal Life
       </h3>
+
+
+      <div class="polaroid">
+        <img src="wedding.jpg"
+          alt="Humorous bridal party photoshoot of bridal party pulling myself and wife apart. 2018">
+
+      </div>
+
       <h3>
         Hobbies
       </h3>
+      <div class="polaroid">
+        <img src="armada.jpg"
+          alt="Me playing Star Wars Armada. 2019">
+        <div class = "container">
+          <p>
+            Playing Star Wars Armada at Dragon's Lair North Houston
+          </p>
+        </div>
+      </div>
 
 
     <!-- page content -->
