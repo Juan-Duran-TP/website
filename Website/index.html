@@ -27,6 +27,7 @@
 
       }
       div.container {
+        font-size: .8em;
         text-align: center;
         padding: 1px 0px;
         }
@@ -35,12 +36,13 @@
         margin: 0 0 1em 1em;
         margin-left: auto;
         margin-right: auto;
-        max-width: 50%;
+        max-width: 48%;
         background-color: white;
         box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-        margin-bottom: 20px;
+        margin-bottom: 0px;
       }
       div.left {
+        max-width: 50%;
         float: left;
       }
       div.right {
@@ -49,20 +51,60 @@
       section {
         float: left;
       }
+      header {
+        text-align:center;
+        border: 1px solid rgb(0, 0, 0);
+        border-radius: 1px;
+        padding: 15px;
+      }
+      ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: #333;
+      }
+
+      li {
+        float: left;
+      }
+
+      li a {
+        display: purple;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+      }
+
+      li a:hover {
+        background-color: #111;
+      }
 
     </style>
   </head>
 
   <body>
+
+      <ul>
+          <li><a href="#skills">Skills & Experience</a></li>
+          <li><a href="#Personal History">Personal History</a></li>
+          <li><a href="#contact">Contact</a></li>
+          <li><a href="#contact">Github</a></li>
+      </ul>
+
+
+
     <div>
       <header>
         <h1>
           All About Juan    
         </h1>
+        
       </header>
     </div>
 
-      <h2>
+      <h2 id="skills">
         Skills & Experience
       </h2>
       <h3>
@@ -76,14 +118,34 @@
       </p>
       
       <h3>
-        Experience
+        Research Project
       </h3>
 
       <p>
         DoVR: Deployment of a Variable Radiator (NASA Research Project)
       </p>
 
-      <h2>
+      <h3>
+        Work Experience
+      </h3>
+        <h4> Academic Success Center Supervisor Assistant</h4>
+        <p>
+
+        </p>
+        <h4> ENGR 111/112/102 Supplemental Instructor</h4>
+        <p>
+
+        </p>
+        <h4> ENGR 111/112/102 Senior Peer Teacher</h4>
+        <p>
+          
+        </p>
+        <h4> ENGR 111/112 Peer Teacher</h4>
+        <p>
+          
+        </p>
+
+      <h2 id="Personal History">
         My Personal History
       </h2>
 
@@ -96,9 +158,9 @@
       </h3>
       <p>
         I was the first of three children born to first-generation Americans and
-        for the first five years of my life, we lived in the garage my father rented from my grandfather. All my life, 
+        up until I five years old, we lived in the garage my father rented from my grandfather. All my life, 
         academics was heavily pushed by my family and drove me to graduate third in my class from Chester W. Nimitz High
-        School and have enough scholarships to afford college.
+        School and allowed me to  earn enough scholarships to afford college.
       </p>
 
       
@@ -109,14 +171,12 @@
         
         <div class = "left">
           <p>
-            I entered Texas A&M's College of Engineering as an aspiring nuclear engineering student. I quickly got involved
+            I entered Texas A&M's College of Engineering as an aspiring nuclear engineering student. I quickly involved myself
             with peer teaching, supplemental instruction, and personal tutoring for the freshmen engineering program 
             to both pay for college and give me a way to assist others in overcoming struggles I experienced in 
-            previous courses. I also involved myself with A&M's Nuclear Power Institute and had the opportunity to work
-            on a research project with NASA in hardware and software role. It was through these experience that I discovered 
-            my fascination with programing, design, and electronics, topics I had at this point been teaching students but
-            not using in my major. I ultimately decided to switch into computer engineering starting my senior year and 
-            began my next stage of life.
+            previous courses. I very quickly rose to the senior ranks of the peer teachers and was promoted to the lead supplemental instructor
+            for the program. 
+            
           </p>
         </div>
 
@@ -130,8 +190,18 @@
             </p>
           </div>
         </div>
+
       </section>
 
+      <p>
+          
+        I also had the opportunity to  participate with A&M's Nuclear Power Institute and work
+        on a research project with NASA in hardware/software engineering role. It was through these experience that I discovered 
+        my fascination with programing, design, and electronics, topics I had at this point been teaching students but
+        not using in my major. I ultimately decided to switch into computer engineering starting my senior year and 
+        began my next stage of life.
+
+      </p>
 
 
 
@@ -156,28 +226,81 @@
 
 
       <h3>
-        Personal Life
+          Post-Graduation
       </h3>
+      <p>
+          I spent another five months continuing work at Texas A&M to assist the Academic Success Center 
+          and the freshmen engineering program to cycle into the new course curriculum that was developed.
+          During this time, I was active job hunting but to no avail. It was not until late in August that
+          I was contacted by Talent Path and ultimately began my role as a junior full stack engineer in September.
+
+      </p>
+
 
 
       <div class="polaroid">
-        <img src="wedding.jpg"
-          alt="Humorous bridal party photoshoot of bridal party pulling myself and wife apart. 2018">
-
+        <img src="TPL.jpg"
+        alt="Talent Path Logo">
+        
       </div>
+
+
+
+
+
+      <h3>
+        Personal Life
+      </h3>
+
+      <div class="polaroid">
+          <img src="wedding.jpg"
+            alt="Humorous bridal party photoshoot of bridal party pulling myself and wife apart. 2018">
+  
+      </div>
+
+      <section>
+          <div>
+            <p>
+              I met my wife in 5th grade and we later started dating sophomore year of high school. We both attended Texas A&M with her
+              joining as a computer engineering major and graduating on time with honors. She was a major source for inspiration for me to ultimately change majors and she 
+              supported me through my five and a half year ordeal there.
+            </p>
+
+      </section>
+
+
+
+
 
       <h3>
         Hobbies
       </h3>
-      <div class="polaroid">
-        <img src="armada.jpg"
-          alt="Me playing Star Wars Armada. 2019">
-        <div class = "container">
-          <p>
-            Playing Star Wars Armada at Dragon's Lair North Houston
-          </p>
-        </div>
-      </div>
+
+
+      <section>
+          <div class="left">
+            <p>
+              In my free time I enjoy playing the Star Wars Roleplaying Game. I am my group's game master and for our most recent campaign
+              we've had a consistent session every other week for the past three months. In addition to this, I also play Star Wars Armada,
+              a  Star Wars tabletop game, with the local Houston area group every week. This has been a more recent hobby I've acquired
+              and I'm aspiring to qualify for the international championships.
+            </p>
+          
+          </div>    
+          <div class="polaroidR">
+              <img src="armada.jpg"
+                alt="Me playing Star Wars Armada. 2019">
+              <div class = "container">
+                <p>
+                  Playing Star Wars Armada at Dragon's Lair North Houston
+                </p>
+              </div>
+          </div>
+      </section>
+
+
+
+
 
 
     <!-- page content -->
