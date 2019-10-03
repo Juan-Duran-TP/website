@@ -6,14 +6,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Juan's About Me</title>
     <style type="text/css">
+      html{
+        background-color: #7e637e;
+      }
       body  {
+        background-color: white;
         margin:40px auto;
         max-width:650px;
         line-height:1.6;
         font-size:18px;
         color:#444;
         padding:0
-        10px}
+        10px;
+        padding-bottom: 475px;
+      }
       h1,h2,h3
       {line-height:1.2}
       img {
@@ -31,6 +37,11 @@
         text-align: center;
         padding: 1px 0px;
         }
+      div.banner {
+        border: 1px solid rgb(221, 221, 221);
+        border-radius: 4px;
+        padding: 5px;
+      }
       div.polaroidR {
         float: right;
         margin: 0 0 1em 1em;
@@ -42,6 +53,7 @@
         margin-bottom: 0px;
       }
       div.left {
+        margin-top: 0px;
         max-width: 50%;
         float: left;
       }
@@ -62,7 +74,7 @@
         margin: 0;
         padding: 0;
         overflow: hidden;
-        background-color: #333;
+        background-color: #633e63;
       }
 
       li {
@@ -78,7 +90,7 @@
       }
 
       li a:hover {
-        background-color: #111;
+        background-color: rgb(110, 106, 106);
       }
 
     </style>
@@ -90,7 +102,8 @@
           <li><a href="#skills">Skills & Experience</a></li>
           <li><a href="#Personal History">Personal History</a></li>
           <li><a href="#contact">Contact</a></li>
-          <li><a href="#contact">Github</a></li>
+          <li><a href="https://github.com/Juan-Duran-TP">Github</a></li>
+          
       </ul>
 
 
@@ -170,14 +183,14 @@
         </h3>
         
         <div class = "left">
-          <p>
+          
             I entered Texas A&M's College of Engineering as an aspiring nuclear engineering student. I quickly involved myself
             with peer teaching, supplemental instruction, and personal tutoring for the freshmen engineering program 
             to both pay for college and give me a way to assist others in overcoming struggles I experienced in 
             previous courses. I very quickly rose to the senior ranks of the peer teachers and was promoted to the lead supplemental instructor
             for the program. 
             
-          </p>
+          
         </div>
 
         <div class="polaroidR">
@@ -208,6 +221,11 @@
       <h3>
           College Part II
       </h3>
+      <div class="banner">
+          <img src="SWE.jpg"
+          alt="Logo of Texas A&M's Society of Women Engineers">
+          
+        </div>
       <p>
           It was in these next three years that I would involve myself with the Society of Women Engineers; it was through
           my many students I previously had taught inviting me to numerous events with a plethora of food. I made many lasting
@@ -218,11 +236,7 @@
 
 
 
-      <div class="polaroid">
-        <img src="SWE.jpg"
-        alt="Logo of Texas A&M's Society of Women Engineers">
-        
-      </div>
+
 
 
       <h3>
@@ -238,7 +252,7 @@
 
 
 
-      <div class="polaroid">
+      <div class="banner">
         <img src="TPL.jpg"
         alt="Talent Path Logo">
         
@@ -252,7 +266,7 @@
         Personal Life
       </h3>
 
-      <div class="polaroid">
+      <div class="banner">
           <img src="wedding.jpg"
             alt="Humorous bridal party photoshoot of bridal party pulling myself and wife apart. 2018">
   
@@ -296,6 +310,36 @@
                 </p>
               </div>
           </div>
+      </section>
+
+      
+      <h3 >
+          Contact Information
+      </h3>
+  
+  
+      <section id="contact">
+            <div class="left">
+              <p>
+               Email: <a href = "mailto:abc@example.com?subject = Feedback&body = Message">
+                  jduran@talentpath.com
+                  </a>
+                </p>
+              <p>
+               Mobile: 713-294-3076
+
+              </p>
+            
+            </div>    
+            <div class="polaroidR">
+                <img src="me.png"
+                  alt="Me">
+                <div class = "container">
+                  <p>
+                    Juan Duran
+                  </p>
+                </div>
+            </div>
       </section>
 
 
